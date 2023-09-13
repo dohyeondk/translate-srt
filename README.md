@@ -27,9 +27,11 @@ This is an example implementation for translating .srt files using the ChatGPT A
    $ export TARGET_LANGUAGE="Korean"
    ```
 
-8. Obtain the source subtitles and save it as `input.srt`.
+6. Obtain the source subtitles and save it as `input.srt`.
 
-9. Run the app:
+7. Run the app:
 
    ```bash
    $ python run.py
+
+8. The translated subtitle file is generated as `output.srt`.
