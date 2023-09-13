@@ -19,7 +19,7 @@ def get_prompt(language, text):
     prompt = prompt.replace("{text}", text)
     return prompt
 
-async def get_completion(prompt, model="gpt-4"):
+async def get_completion(prompt, model="gpt-3.5-turbo"):
     messages = [{"role": "user", "content": prompt}]
     response = await openai.ChatCompletion.acreate(
         model=model,
